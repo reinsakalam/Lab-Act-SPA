@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    padding-right: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: rgb(255, 252, 252);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('img/LSPU\ dashboard.png');
+    background-repeat:no-repeat;
+    height: 70px;
+    margin-left: 5px;
+}
+.navbar a {
+    position:relative;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.navbar a:hover {
+    color:blue;
+}
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+    background-image: url('img/LSPU.jpg');
+}
+.content {
+    max-width: 600px;
+}
+.content h3 {
+    font-size: 32px;
+    color: rgb(3, 3, 3);
+}
+.content h2 {
+    font-size: 30px;
+}
+.content h1 {
+    font-size: 50px;
+    margin: -3px 0;
+    color: rgb(14, 13, 13);
+}
+span {
+    color: blue;
+}
+.content p {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.about{
+    background-image: url('img/BG.jpg');
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    padding: 70px 10%;
+    display: flex;
+    gap:3rem;
+ }
+ 
+ .about .image{
+    flex:1 1 41rem;
+ }
+ 
+ .about .image img{
+    width: 90%;
+    filter: drop-shadow(5px 5px 50px rgb(0, 156, 247));
+    border-radius: 5%;
+ }
+ 
+ .about .content{
+    flex:1 1 41rem;
+    text-align: center;
+ }
+ 
+ .about .content h3{
+    font-size: 5rem;
+    color: white;
+ }
+ 
+ .about .content p{
+    font-size: 1.5rem;
+    line-height: 2;
+    padding:1rem 0;
+    color: white;
+ }
+
+ 
+ .contact h3 {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(7, 7, 7)
+ }
+
+ .contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+  }
+  
+  .contact img {
+    max-height: 100%;  /* Set the image's maximum height to 100% of the container */
+    max-width: 100%;   /* Set the image's maximum width to 100% of the container */
+    height: auto;      /* Maintain the image's aspect ratio */
+  }
+  
